@@ -12,7 +12,6 @@ public class Main {
             botsLongPollingApplication.registerBot(TOKEN, new BotTebakHurufMain(""));
             Thread.currentThread().join();
         } catch (Exception e) {
-            e.printStackTrace();
         }
     }
 }
